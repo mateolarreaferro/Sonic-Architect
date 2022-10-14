@@ -1,0 +1,165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto"
+6    android:versionCode="1"
+7    android:versionName="0.1.0" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="23"
+10-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-52
+13-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-49
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-65
+15-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:20-62
+16
+17    <uses-feature
+17-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-88
+18        android:name="android.hardware.touchscreen"
+18-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:17-60
+19        android:required="false" />
+19-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:61-85
+20    <uses-feature
+20-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:17-71
+22        android:required="false" />
+22-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:72-96
+23    <uses-feature
+23-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-80
+25        android:required="false" />
+25-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:81-105
+26    <uses-feature
+26-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-111
+27        android:name="android.hardware.vr.headtracking"
+27-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-64
+28        android:required="true"
+28-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:65-88
+29        android:version="1" />
+29-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:89-108
+30
+31    <application android:extractNativeLibs="true" >
+31-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-24:17
+31-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+32        <activity
+32-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-13:16
+33            android:name="com.unity3d.player.UnityPlayerActivity"
+33-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+34            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+34-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:204-305
+35            android:hardwareAccelerated="false"
+35-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:341-376
+36            android:launchMode="singleTask"
+36-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:172-203
+37            android:resizeableActivity="false"
+37-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:306-340
+38            android:screenOrientation="landscape"
+38-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:134-171
+39            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+39-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-133
+40            <intent-filter>
+40-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+41-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+43-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+44                <category android:name="com.oculus.intent.category.VR" />
+44-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:9-66
+44-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:19-63
+45            </intent-filter>
+46
+47            <meta-data
+47-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-82
+48                android:name="unityplayer.UnityActivity"
+48-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-58
+49                android:value="true" />
+49-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:59-79
+50            <meta-data
+50-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-78
+51                android:name="android.notch_support"
+51-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:18-54
+52                android:value="true" />
+52-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:55-75
+53            <meta-data
+53-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:7-81
+54                android:name="com.oculus.vr.focusaware"
+54-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:18-57
+55                android:value="true" />
+55-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:58-78
+56        </activity>
+57
+58        <meta-data
+58-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-69
+59            android:name="unity.splash-mode"
+59-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-48
+60            android:value="0" />
+60-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:49-66
+61        <meta-data
+61-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-74
+62            android:name="unity.splash-enable"
+62-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-50
+63            android:value="True" />
+63-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:51-71
+64        <meta-data
+64-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-78
+65            android:name="unity.launch-fullscreen"
+65-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-54
+66            android:value="True" />
+66-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:55-75
+67        <meta-data
+67-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-84
+68            android:name="unity.allow-resizable-window"
+68-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-59
+69            android:value="False" />
+69-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:60-81
+70        <meta-data
+70-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-81
+71            android:name="notch.config"
+71-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-43
+72            android:value="portrait|landscape" />
+72-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:44-78
+73        <meta-data
+73-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-97
+74            android:name="com.samsung.android.vr.application.mode"
+74-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-70
+75            android:value="vr_only" />
+75-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:71-94
+76        <meta-data
+76-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:5-91
+77            android:name="com.unity.xr.oculus.LowOverheadMode"
+77-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:16-66
+78            android:value="false" />
+78-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:67-88
+79        <meta-data
+79-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:5-88
+80            android:name="com.unity.xr.oculus.LateLatching"
+80-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:16-63
+81            android:value="false" />
+81-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:64-85
+82        <meta-data
+82-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:5-93
+83            android:name="com.unity.xr.oculus.LateLatchingDebug"
+83-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:16-68
+84            android:value="false" />
+84-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:69-90
+85        <meta-data
+85-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:5-90
+86            android:name="com.oculus.supportedDevices"
+86-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:16-58
+87            android:value="quest|quest2" />
+87-->/Users/mlf/Desktop/SonicArchitect/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:59-87
+88    </application>
+89
+90</manifest>

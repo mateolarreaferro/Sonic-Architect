@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{2E3B9F76-FD2B-E5EC-C877-1C59881E9358}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SampleChanger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Fruits/ResetStartingPosition.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlantsBehaviour.cs" />
+      <File FileName="Assets/Scripts/Slider.cs" Line="77" Column="61" />
+      <File FileName="Assets/Scripts/Garden.cs" />
+      <File FileName="Assets/Scripts/SampleChanger.cs" Line="59" Column="41" />
+      <File FileName="Assets/Scripts/GravityMechanic.cs" />
+      <File FileName="Assets/Scripts/GravityZone.cs" />
+      <File FileName="Assets/Scripts/ProceduralForrest.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dca7d31c-66d8-42cd-a2f6-37e32bcbe3cc" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

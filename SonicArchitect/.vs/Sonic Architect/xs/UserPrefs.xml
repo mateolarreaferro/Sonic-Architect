@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{CD4A7EED-AF93-19D7-9332-7B64290C06D5}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ReverseNormals.cs">
+    <Files>
+      <File FileName="Assets/ReverseNormals.cs" Line="33" Column="2" />
+      <File FileName="Assets/Scripts/ReverseNormals.cs" Line="5" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b261e82a-7c87-4d32-ad0b-a643322350bb" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
